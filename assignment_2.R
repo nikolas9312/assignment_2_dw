@@ -57,4 +57,4 @@ highest_avg_square_ft <- summary_stats_top_neighborhoods$avg_square_feet[1]
 
 # Question 9
 # ------------------------------------------------------------
-second_avg_price <- summary_stats_top_neighborhoods$avg_square_feet[2]
+second_avg_price <- summary_stats_top_neighborhoods$avg_price[2]
