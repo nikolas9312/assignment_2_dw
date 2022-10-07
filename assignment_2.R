@@ -29,4 +29,5 @@ summary_stats_top_neighborhoods <- airbnb_top_neighborhoods %>% group_by(neighbo
 highest_avg_square_ft <- summary_stats_top_neighborhoods$avg_square_feet[1]
 
 ##2(f)-Private Question##
+summary_stats_top_neighborhoods <- summary_stats_top_neighborhoods %>% arrange(desc(avg_price))
 second_avg_price <- summary_stats_top_neighborhoods$avg_price[2]
